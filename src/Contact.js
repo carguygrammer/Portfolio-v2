@@ -1,0 +1,60 @@
+import Trees from "./images/trees.jpg";
+import { useState } from "react";
+
+const Contact = () => {
+  const [formSubmit, setFormSubmit] = useState(false);
+
+  const handleSubmittedMsg = () => {
+    return <p className="submitMessage">Messge sent, thank you!</p>;
+  };
+
+  return (
+    <section className="section contact__section">
+      <div className="container">
+        <div className="contact__side contact__side--left">
+          <img src={Trees} alt="contact background image" />
+          <div className="text-box">
+            <h2 className="heading__secondary">lets get in touch</h2>
+            <p className="paragraph">
+              Ready to kickstart my journey as a web developer! Excited to
+              learn, grow, and contribute to innovative projects. Reach out to
+              discuss how I can bring fresh perspectives and enthusiasm to your
+              team!
+            </p>
+          </div>
+          {/* <div className="overlay overlay__projects"></div> */}
+        </div>
+        <div className="contact__side contact__side--right">
+          <h2 className="heading__secondary">Contact</h2>
+          <form className="contact__form" onSubmit={(e) => e.preventDefault()}>
+            <label htmlFor="name">name</label>
+            <input id="name" type="text" placeholder="Name" required />
+            <label htmlFor="subject">subject</label>
+            <input type="text" placeholder="Subject" required />
+            <label htmlFor="textbox">message box</label>
+            <textarea
+              name="textbox"
+              placeholder="your message here"
+              onSubmit={(e) => e.target.value === ""}
+              required
+            ></textarea>
+            <input
+              type="submit"
+              aria-label="button"
+              href="mailto:adrian.le1995@gmail.com"
+              onSubmit={() => setFormSubmit(true)}
+            />
+          </form>
+          {formSubmit === false && ""}
+          {
+            formSubmit === true && handleSubmittedMsg()
+            // <p className="submitMessage">your message was sent</p>
+          }
+          {/* <div className="overlay"></div> */}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
