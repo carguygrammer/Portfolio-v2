@@ -8,7 +8,7 @@ import { SiSass, SiNetlify } from "react-icons/si";
 
 const Figure = ({ toggleDetails, detailsVisible }) => {
   return (
-    <>
+    <div className="row-tiles">
       <figure>
         {!detailsVisible.project1 ? (
           <figure className="figure">
@@ -23,7 +23,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
           </figure>
         ) : (
           detailsVisible.project1 && (
-            <>
+            <div className="tiles">
               <figure className="figure">
                 <img src={Forest} alt="forest" />
                 <div className="overlay overlay--projects"></div>
@@ -52,7 +52,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
                   hide details
                 </button>
               </figcaption>
-            </>
+            </div>
           )
         )}
       </figure>
@@ -71,7 +71,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
           </figure>
         ) : (
           detailsVisible.project2 && (
-            <>
+            <div className="tiles">
               <figure className="figure">
                 <img src={Lake} alt="lake" />
                 <div className="overlay overlay--projects"></div>
@@ -101,7 +101,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
                   hide details
                 </button>
               </figcaption>
-            </>
+            </div>
           )
         )}
       </figure>
@@ -120,7 +120,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
           </figure>
         ) : (
           detailsVisible.project3 && (
-            <>
+            <div className="tiles">
               <figure className="figure">
                 <img src={SmallLake} alt="small lake" />
                 <div className="overlay overlay--projects"></div>
@@ -153,7 +153,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
                   hide details
                 </button>
               </figcaption>
-            </>
+            </div>
           )
         )}
       </figure>
@@ -172,7 +172,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
           </figure>
         ) : (
           detailsVisible.project4 && (
-            <>
+            <div className="tiles">
               <figure className="figure">
                 <img src={Mountains} alt="nature" />
                 <div className="overlay overlay--projects"></div>
@@ -201,11 +201,11 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
                   hide details
                 </button>
               </figcaption>
-            </>
+            </div>
           )
         )}
       </figure>
-    </>
+    </div>
   );
 };
 

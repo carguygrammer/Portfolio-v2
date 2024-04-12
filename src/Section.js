@@ -48,7 +48,7 @@ const Section = () => {
       </section>
       <section className="section section__about flex__col--center-center">
         <div className="container">
-          <div className="wrapper">
+          <div className="wrapper about__container">
             <article className="self-contained">
               <img src={Mountains} alt="mountains" />
               <h2 className="heading__secondary">Quick History</h2>
