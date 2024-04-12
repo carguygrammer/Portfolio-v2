@@ -646,7 +646,6 @@ img {
 .contact__form input[type="submit"]:hover {
   background-color: #918f69;
   cursor: pointer;
-  /* border: 1px solid transparent; */
 }
 
 .submitMessage {

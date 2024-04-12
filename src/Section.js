@@ -24,8 +24,6 @@ import { SiSass, SiNetlify, SiTypescript } from "react-icons/si";
 
 const Section = () => {
   const [galleryVisible, setGalleryVisible] = useState(false);
-  // const [projectDetailsVisible, setProjectDetailsVisible] = useState(false);
-
   const [detailsVisible, setDetailsVisible] = useState({
     project1: false,
     project2: false,

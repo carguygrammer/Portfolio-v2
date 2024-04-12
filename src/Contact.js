@@ -22,7 +22,6 @@ const Contact = () => {
               team!
             </p>
           </div>
-          {/* <div className="overlay overlay__projects"></div> */}
         </div>
         <div className="contact__side contact__side--right">
           <h2 className="heading__secondary">Contact</h2>
@@ -46,11 +45,7 @@ const Contact = () => {
             />
           </form>
           {formSubmit === false && ""}
-          {
-            formSubmit === true && handleSubmittedMsg()
-            // <p className="submitMessage">your message was sent</p>
-          }
-          {/* <div className="overlay"></div> */}
+          {formSubmit === true && handleSubmittedMsg()}
         </div>
       </div>
     </section>
