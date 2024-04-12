@@ -25,7 +25,11 @@ const Contact = () => {
         </div>
         <div className="contact__side contact__side--right">
           <h2 className="heading__secondary">Contact</h2>
-          <form className="contact__form" onSubmit={(e) => e.preventDefault()}>
+          <form
+            className="contact__form"
+            onSubmit={(e) => e.preventDefault()}
+            netlify
+          >
             <label htmlFor="name">name</label>
             <input id="name" type="text" placeholder="Name" required />
             <label htmlFor="subject">subject</label>
