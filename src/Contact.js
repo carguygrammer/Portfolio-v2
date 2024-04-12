@@ -4,6 +4,23 @@ import { useState } from "react";
 const Contact = () => {
   const [formSubmit, setFormSubmit] = useState(false);
 
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+
+  //   const myForm = e.target;
+  //   const formData = new FormData(myForm);
+
+  //   fetch("/", {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+  //     body: new URLSearchParams(formData).toString(),
+  //   })
+  //     .then(() => console.log("Form successfully submitted"))
+  //     .catch((error) => alert(error));
+  // };
+
+  // document.querySelector("form").addEventListener("submit", handleSubmit);
+
   const handleSubmittedMsg = () => {
     return <p className="submitMessage">Messge sent, thank you!</p>;
   };
@@ -27,9 +44,12 @@ const Contact = () => {
           <h2 className="heading__secondary">Contact</h2>
           <form
             className="contact__form"
-            onSubmit={(e) => e.preventDefault()}
-            netlify
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            onSubmit="submit"
           >
+            <input name="bot-field" hidden />
             <label htmlFor="name">name</label>
             <input id="name" type="text" placeholder="Name" required />
             <label htmlFor="subject">subject</label>
