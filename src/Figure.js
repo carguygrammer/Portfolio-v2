@@ -2,7 +2,7 @@ import Forest from "./images/forest.jpg";
 import Mountains from "./images/mountains.jpg";
 import SmallLake from "./images/Lake_Misasako.jpg";
 import Lake from "./images/lake.jpg";
-import { FaHtml5, FaCss3Alt, FaGitAlt, FaGithub } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaGitAlt } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { SiSass, SiNetlify } from "react-icons/si";
 

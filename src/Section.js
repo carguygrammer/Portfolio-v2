@@ -174,37 +174,37 @@ const Section = () => {
               <img src={Mountains} />
             </div>
             <div className="grid__image image--2">
-              <img src={SmallLake} alt="image 2" />
+              <img src={SmallLake} alt="nature" />
             </div>
             <div className="grid__image image--3">
-              <img src={SmallLake} alt="image 3" />
+              <img src={SmallLake} alt="nature" />
             </div>
             <div className="grid__image image--4">
-              <img src={Lake} alt="image 4" />
+              <img src={Lake} alt="nature" />
             </div>
             <div className="grid__image image--5">
-              <img src={Forest} alt="image 5" />
+              <img src={Forest} alt="nature" />
             </div>
             <div className="grid__image image--6">
-              <img src={SmallLake} alt="image 3" />
+              <img src={SmallLake} alt="nature" />
             </div>
             <div className="grid__image image--7">
-              <img src={Lake} alt="image 4" />
+              <img src={Lake} alt="nature" />
             </div>
             <div className="grid__image image--8">
-              <img src={Forest} alt="image 5" />
+              <img src={Forest} alt="nature" />
             </div>
             <div className="grid__image image--9">
               <img src={Mountains} />
             </div>
             <div className="grid__image image--10">
-              <img src={SmallLake} alt="image 2" />
+              <img src={SmallLake} alt="nature" />
             </div>
             <div className="grid__image image--11">
-              <img src={SmallLake} alt="image 3" />
+              <img src={SmallLake} alt="nature" />
             </div>
             <div className="grid__image image--12">
-              <img src={Forest} alt="image 5" />
+              <img src={Forest} alt="nature" />
             </div>
             <div className="grid__image image--13">
               <button
@@ -227,7 +227,6 @@ const Section = () => {
             <FigureContainer
               detailsVisible={detailsVisible}
               toggleDetails={toggleDetails}
-              setDetailsVisible={setDetailsVisible}
             />
           </div>
         </div>

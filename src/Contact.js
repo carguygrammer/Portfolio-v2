@@ -12,7 +12,7 @@ const Contact = () => {
     <section className="section contact__section">
       <div className="container">
         <div className="contact__side contact__side--left">
-          <img src={Trees} alt="contact background image" />
+          <img src={Trees} alt="trees" />
           <div className="text-box">
             <h2 className="heading__secondary">lets get in touch</h2>
             <p className="paragraph">
