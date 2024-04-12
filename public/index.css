@@ -89,8 +89,6 @@ img {
   color: var(--primary-color);
 }
 
-.margin-tb--md {}
-
 .flex__col--center-center {
   display: flex;
   flex-direction: column;
@@ -114,7 +112,7 @@ img {
 /* page sections  */
 .homepage {
   min-height: 100vh;
-  background: url(images/IMG_20200717_130156_985.jpg);
+  background: url(IMG_20200717_130156_985.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

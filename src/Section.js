@@ -5,6 +5,7 @@ import SmallLake from "./images/Lake_Misasako.jpg";
 import Mountains from "./images/mountains.jpg";
 import Lake from "./images/lake.jpg";
 import Forest from "./images/forest.jpg";
+// import Beach from "./images/IMG_20200717_130156_985.jpg";
 
 import { useState } from "react";
 import {
@@ -41,6 +42,7 @@ const Section = () => {
   return (
     <>
       <section id="homepage" className="homepage flex__row--center-center">
+        {/* <img src={Beach} alt="" /> */}
         <Overlay />
         <Wrapper />
       </section>
