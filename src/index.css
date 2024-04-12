@@ -17,7 +17,6 @@ html {
 }
 
 body {
-  /* background-color: rgb(33, 35, 35); */
   font-family: "Overpass", sans-serif;
   overflow-x: hidden;
 }
@@ -117,7 +116,6 @@ img {
 /* page sections  */
 .homepage {
   min-height: 100vh;
-  /* background: url(images/IMG_20200717_130156_985.jpg); */
   background: url(images/IMG_20200717_130156_985.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,7 +193,6 @@ img {
 
 .page-intro {
   font-family: "Overpass", sans-serif;
-  /* border: 1px solid red; */
   padding: .5rem;
   text-align: center;
 }
@@ -365,7 +362,6 @@ img {
   border: 1px solid var(--secondary-color);
   color: white;
   border-radius: 0px;
-  /* padding: 1em; */
 }
 
 .grid__image {
@@ -463,7 +459,6 @@ img {
 }
 
 .figure:hover {
-  /* cursor: pointer; */
   border: 1px solid white;
 }
 
@@ -482,7 +477,6 @@ img {
 }
 
 .figurespan:hover {
-  /* color: var(--primary-color); */
   text-decoration: underline;
   cursor: pointer;
 }
@@ -590,14 +584,10 @@ img {
   max-width: 90%;
   margin: 2em auto;
   text-align: center;
-
 }
 
-/* .contact__section {
-} */
 
 .contact__form {
-  /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
 }
@@ -644,7 +634,6 @@ img {
 
 .contact__form textarea:focus {
   border: 1px solid#cb8d54;
-  ;
 }
 
 .contact__form input[type="submit"] {
@@ -668,11 +657,11 @@ img {
   padding: 1em;
   margin-top: .5em;
   /* opacity: 0; */
-  animation: fadeIn 2s 2s ease-in-out;
+  /* animation: fadeIn 2s 2s ease-in-out; */
 }
 
 
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -681,4 +670,4 @@ img {
     opacity: 1;
   }
 
-}
+} */
