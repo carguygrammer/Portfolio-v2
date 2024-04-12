@@ -12,7 +12,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
       <figure>
         {!detailsVisible.project1 ? (
           <figure className="figure">
-            <img src={Forest} alt="Image 1" />
+            <img src={Forest} alt="forest" />
             <span
               className="figurespan"
               onClick={() => toggleDetails("project1")}
@@ -25,7 +25,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
           detailsVisible.project1 && (
             <>
               <figure className="figure">
-                <img src={Forest} alt="Image 1" />
+                <img src={Forest} alt="forest" />
                 <div className="overlay overlay--projects"></div>
               </figure>
               <figcaption className="figcaption">
@@ -60,7 +60,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
       <figure>
         {!detailsVisible.project2 ? (
           <figure className="figure">
-            <img src={Lake} alt="Image 2" />
+            <img src={Lake} alt="lake" />
             <span
               className="figurespan"
               onClick={() => toggleDetails("project2")}
@@ -73,7 +73,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
           detailsVisible.project2 && (
             <>
               <figure className="figure">
-                <img src={Lake} alt="Image 2" />
+                <img src={Lake} alt="lake" />
                 <div className="overlay overlay--projects"></div>
               </figure>
               <figcaption className="figcaption">
@@ -109,7 +109,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
       <figure>
         {!detailsVisible.project3 ? (
           <figure className="figure">
-            <img src={SmallLake} alt="Image 3" />
+            <img src={SmallLake} alt="small lake" />
             <span
               className="figurespan"
               onClick={() => toggleDetails("project3")}
@@ -122,7 +122,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
           detailsVisible.project3 && (
             <>
               <figure className="figure">
-                <img src={SmallLake} alt="Image 3" />
+                <img src={SmallLake} alt="small lake" />
                 <div className="overlay overlay--projects"></div>
               </figure>
               <figcaption className="figcaption">
@@ -161,7 +161,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
       <figure>
         {!detailsVisible.project4 ? (
           <figure className="figure">
-            <img src={Mountains} alt="Image 4" />
+            <img src={Mountains} alt="mountains" />
             <span
               className="figurespan"
               onClick={() => toggleDetails("project4")}
@@ -174,7 +174,7 @@ const Figure = ({ toggleDetails, detailsVisible }) => {
           detailsVisible.project4 && (
             <>
               <figure className="figure">
-                <img src={Mountains} alt="Image 4" />
+                <img src={Mountains} alt="nature" />
                 <div className="overlay overlay--projects"></div>
               </figure>
               <figcaption className="figcaption">
