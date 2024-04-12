@@ -40,7 +40,7 @@ const Section = () => {
 
   return (
     <>
-      <section className="homepage flex__row--center-center">
+      <section id="homepage" className="homepage flex__row--center-center">
         <Overlay />
         <Wrapper />
       </section>
@@ -83,7 +83,10 @@ const Section = () => {
           </div>
         </div>
       </section>
-      <section className="section section__skills flex__col--center-center">
+      <section
+        id="about"
+        className="section section__skills flex__col--center-center"
+      >
         <div className="container">
           <div className="wrapper">
             <span className="color-primary span__page--title">My Skills</span>
@@ -171,7 +174,7 @@ const Section = () => {
           /* <span className="color-primary span__page--title">Photography</span> */
           <div className="grid__container">
             <div className="grid__image image--1">
-              <img src={Mountains} />
+              <img src={Mountains} alt="nature" />
             </div>
             <div className="grid__image image--2">
               <img src={SmallLake} alt="nature" />
@@ -195,7 +198,7 @@ const Section = () => {
               <img src={Forest} alt="nature" />
             </div>
             <div className="grid__image image--9">
-              <img src={Mountains} />
+              <img src={Mountains} alt="nature" />
             </div>
             <div className="grid__image image--10">
               <img src={SmallLake} alt="nature" />
@@ -220,7 +223,10 @@ const Section = () => {
           </div>
         )}
       </section>
-      <section className="section section__portfolio flex__col--center-center">
+      <section
+        id="portfolio"
+        className="section section__portfolio flex__col--center-center"
+      >
         <div className="container">
           <h2 className="heading__secondary">Portfolio</h2>
           <div className="margin-tb--md">

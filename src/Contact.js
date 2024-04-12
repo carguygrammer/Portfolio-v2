@@ -9,7 +9,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="section contact__section">
+    <section id="contact" className="section contact__section">
       <div className="container">
         <div className="contact__side contact__side--left">
           <img src={Trees} alt="trees" />
